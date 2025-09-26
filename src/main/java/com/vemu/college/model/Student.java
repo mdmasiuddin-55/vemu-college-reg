@@ -15,24 +15,20 @@ public class Student {
     public String getName() {
         return name;
     }
-
     public String getEmail() {
         return email;
     }
-
     public String getCourse() {
         return course;
     }
 
-    // ✅ Setters (optional but good to have)
+    // ✅ Setters
     public void setName(String name) {
         this.name = name;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
-
     public void setCourse(String course) {
         this.course = course;
     }
